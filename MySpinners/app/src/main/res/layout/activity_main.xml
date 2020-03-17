@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/mySubject" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="@string/rating" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="80"
+            android:spinnerMode="dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="@string/dig"
+            android:maxLength="2"
+            android:layout_weight="20"
+            android:hint="@string/result"
+            android:ems="3"
+            android:gravity="center"
+            android:inputType="number"
+            android:background="@drawable/edittextstyle"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:spinnerMode="dialog"
+            android:layout_weight="80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editText2"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:digits="@string/dig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="2"
+            android:layout_weight="20"
+            android:hint="@string/result"
+            android:ems="3"
+            android:inputType="number"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:spinnerMode="dialog"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editText3"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="@string/dig"
+            android:gravity="center"
+            android:maxLength="2"
+            android:layout_weight="20"
+            android:hint="@string/result"
+            android:ems="3"
+            android:inputType="number"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="80"
+            android:layout_width="match_parent"
+            android:spinnerMode="dialog"
+            android:layout_height="wrap_content"
+
+            />
+        <EditText
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editText4"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="@string/dig"
+            android:gravity="center"
+            android:maxLength="2"
+            android:layout_weight="20"
+            android:hint="@string/result"
+            android:ems="3"
+            android:inputType="number"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:spinnerMode="dialog"
+            android:layout_weight="80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editText5"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="@string/dig"
+            android:maxLength="2"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:hint="@string/result"
+            android:ems="3"
+            android:inputType="number"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:padding="5dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:spinnerMode="dialog"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="20"
+            android:digits="@string/dig"
+            android:autofillHints=""
+            android:background="@drawable/edittextstyle"
+            android:ems="3"
+            android:gravity="center"
+            android:hint="@string/result"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextstyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:onClick="onClick"
+            android:shadowDy="0"
+            android:shadowRadius="15"
+            android:text="@string/calculate"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>

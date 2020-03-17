@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Spinners</string>
+    <string name="textMe">"Цей придмет вже вибрано" </string>
+    <string name="calculate">Обчислити</string>
+    <string name="mySubject">Предмети</string>
+    <string name="rating">Оцінка</string>
+    <string name="result">1-12</string>
+    <string name="dig">1234567890</string>
+    <string name="sum">Введіть оцінку</string>
+    <string name="clear">Виберіть предмет</string>
+    <string name="myDad">Введіть оцінку 1-12</string>
+    <string name="ptu">Вітаємо в ПТУ</string>
+    <string name="medium">Ваша середня оцінка:</string>
+    <!--    <array name="spinners">-->
+    <!--        <item>Виберіть предмет:</item>-->
+    <!--        <item>Українська мова</item>-->
+    <!--        <item>Українська література</item>-->
+    <!--        <item>Математика</item>-->
+    <!--        <item>Хімія</item>-->
+    <!--        <item>Біологія</item>-->
+    <!--        <item>Фізика</item>-->
+    <!--    </array>&ndash;&gt;-->
+</resources>
